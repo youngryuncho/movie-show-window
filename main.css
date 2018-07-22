@@ -1,0 +1,75 @@
+body {
+    font-family: 'Abel', sans-serif;
+    /* font-family: 'Poiret One', cursive; */
+    text-align: left;
+    background-repeat: no-repeat;
+}
+
+.정렬 {
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.기본이미지 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(6intro.jpg);
+    opacity: .3;
+}
+
+.이미지 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.컨테이너 {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-content: center;
+}
+
+.영화보자 {
+    width: 65%;
+    height: 50%;
+    padding: 10px 10px 0 50px;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.제목강조 {
+    height: 40px;
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: bold;
+	cursor: -webkit-grabbing;
+
+}
+
+.몇편 {
+    display: block;
+    height: fit-content;
+    width: 35%;
+    padding: 12px 0 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    float: right;
+    cursor: -webkit-grab;
+}
+
