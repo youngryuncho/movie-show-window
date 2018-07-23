@@ -1,9 +1,14 @@
+
 body {
+     height: 100%;
+    width: 100%;
+    background-color: #ffffff;
     font-family: 'Abel', sans-serif;
     /* font-family: 'Poiret One', cursive; */
     text-align: left;
     background-repeat: no-repeat;
 }
+
 
 .정렬 {
     width: fit-content;
@@ -43,18 +48,18 @@ body {
 }
 
 .영화보자 {
-    width: 65%;
+    width: 70%;
     height: 50%;
-    padding: 10px 10px 0 50px;
+    padding: 10px 0 0 8%;
     box-sizing: border-box;
-    font-size: 18px;
-    line-height: 36px;
+    font-size: 1.7vw;
+    line-height: 2.8vw;
 }
 
 .제목강조 {
     height: 40px;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 1.7vw;
+    line-height: 2.8vw;
     font-weight: bold;
 	cursor: -webkit-grabbing;
 
@@ -63,12 +68,12 @@ body {
 .몇편 {
     display: block;
     height: fit-content;
-    width: 35%;
-    padding: 12px 0 0 10px;
+    width: 30%;
+    padding: 12px 6% 0 0;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 1vw;
     font-weight: bold;
-    line-height: 18px;
+    line-height: 1.35vw;
     float: right;
     cursor: -webkit-grab;
 }
